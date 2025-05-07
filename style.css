@@ -42,3 +42,9 @@ html::-webkit-scrollbar-thumb{
     background: var(--black);
 }
 
+.header .header-1{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
