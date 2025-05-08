@@ -151,7 +151,7 @@ html::-webkit-scrollbar-thumb{
     left: 0;
     right: 0;
     z-index: 1000;
-    
+    display: none;
 }
 
 .bottom-navbar a{
@@ -241,6 +241,9 @@ html::-webkit-scrollbar-thumb{
 @media (max-width:768px){
     .header .header-2{
         display: none;
+    }
+    .bottom-navbar{
+        display: block;
     }
 
     #search-btn{
