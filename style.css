@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#27ae60;
-    --dark-color:#219150;
-    --black:#444;
-    --light-color:#666;
+    --green:#ccd5ae;
+    --dark-color: #d4a373;
+    --black:#444444;
+    --light-color:#faedcd;
     --border:.1rem solid rgba(0,0,0,.1);
     --border-hover: .1rem solid var(--black);
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -25,7 +25,7 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
 }
@@ -44,7 +44,74 @@ html::-webkit-scrollbar-thumb{
 
 .header .header-1{
     background: #fff;
+    padding: 1.5rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
+
+/* store logo */
+.header .header-1 .store-logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--green);
+
+}
+
+
+.header .header-1 .store-logo .i{
+    color: var(--green);
+    
+}
+
+/* search icon */
+.header .header-1 .search-form{
+    width: 50rem;
+    height: 5rem;
+    border: var(--border);
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.header .header-1 .search-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100% ;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+}
+
+.header .header-1 .search-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.header .header-1 .search-form label:hover{
+    color: var(--green);
+}
+
+.header .header-1 .icons a, 
+.header .header-1 .icons div{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+
+.header .header-1 .icons a:hover, 
+.header .header-1 .icons div:hover{
+    color: var(--green);
+}
+
+#search-btn{
+    display: none;
+}
+
