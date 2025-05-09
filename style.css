@@ -289,7 +289,14 @@ html::-webkit-scrollbar-thumb{
     text-decoration: underline;
 }
 
-
+.login-form-container #close-login-btn{
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    color: var(--black);
+    cursor: pointer;
+}
 
 
 
