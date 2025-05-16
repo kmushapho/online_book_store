@@ -341,8 +341,8 @@ section{
 }
 
 .home .row .books-slider .stand{
-    width: 80%;
-    margin-top: -2rem;
+    width: 90%;
+    margin-top: -30rem;
 }
 
 .home .row .content h3{
@@ -396,6 +396,7 @@ section{
 
 
 /* media queries */
+
 @media (max-width:991px){
     html{
         font-size: 55%;
@@ -409,6 +410,11 @@ section{
     section{
         padding: 3rem 2rem;
     }
+
+    .home .row .books-slider .stand {
+        margin-top: -19rem; 
+    }
+
 }
 
 @media (max-width:768px){
@@ -456,6 +462,12 @@ section{
     .home .row .content .h3{
         font-size: 3.5rem;
     }
+
+     .home .row .books-slider .stand {
+        margin-top: -20rem; 
+    }
+
+    
 }
 
 @media (max-width:450px){
@@ -467,4 +479,7 @@ section{
         padding: 2rem;
         
     }
+
+    .home .row .books-slider .stand {
+        margin-top: -18rem;  }
 }
