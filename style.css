@@ -351,7 +351,7 @@ section{
 }
 
 .home .row .content p{
-    color: var(--green);
+    color: rgb(100, 89, 89);
     font-size: 1.4rem;
     line-height: 2;
     padding: 1rem 0;
